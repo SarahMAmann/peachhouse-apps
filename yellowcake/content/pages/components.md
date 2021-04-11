@@ -1,4 +1,4 @@
----
+<!-- ---
 template: ComponentsPage
 slug: components
 title: Components Page
@@ -41,4 +41,4 @@ gallery:
 meta:
   description: This is a meta description.
   title: Components Page
----
+--- -->

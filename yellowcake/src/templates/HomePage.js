@@ -5,9 +5,10 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import Accordion from '../components/Accordion'
+import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordion }) => (
+export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordion, popup }) => (
   <main className="Home">
     <PageHeader
       large
@@ -17,9 +18,16 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
     />
 
     <section className="section">
-      <div className="container">
+      <div className="container" style={{paddingTop: 20}}>
         <Content source={body} />
-        <Accordion items={accordion} />
+        <div style={{paddingTop: 100, paddingBottom: 50}}>
+          <Accordion items={accordion} />
+        </div>
+        <div style={{paddingBottom: 100}}>
+          <Popup>
+          <Content source={popup} />
+          </Popup>
+        </div>
       </div>
     </section>
   </main>
@@ -51,6 +59,7 @@ export const pageQuery = graphql`
           title
           description
         }
+        popup
       }
     }
   }

@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+featuredImage: ../images/contactBanner.png
 subtitle: Let's make something awesome together.
 address: 'Chicago'
 # phone: 0987 123 456

@@ -129,7 +129,7 @@ class Form extends React.Component {
             <select
               className="Form--Input Form--Select"
               name="type"
-              defaultValue="Type of Enquiry"
+              defaultValue="What's your budget?"
               required
             >
               <option disabled hidden>

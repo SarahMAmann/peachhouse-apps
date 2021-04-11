@@ -1,4 +1,4 @@
----
+<!-- ---
 template: DefaultPage
 slug: default
 title: Default
@@ -41,4 +41,4 @@ The second paragraph. This is placeholder text that our web designers put here t
 
 ##### Heading 5
 
-###### Heading 6
+###### Heading 6 -->
