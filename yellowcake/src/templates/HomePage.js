@@ -38,7 +38,7 @@ const HomePage = ({ data: { page } }) => (
   <Layout meta={page.frontmatter.meta || false}>
     <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
     <div style={{height: '85vh', backgroundColor: 'black', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-      <p className="main-title" style={{color: 'white', fontSize: '60px'}}>PEACH HOUSE</p>
+      <p className="main-title">PEACH HOUSE</p>
     </div>
   </Layout>
 )
