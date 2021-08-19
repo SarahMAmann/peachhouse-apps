@@ -1,4 +1,4 @@
----
+<!-- ---
 template: ContactPage
 slug: contact
 title: Contact
@@ -28,4 +28,4 @@ Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/)
 
 # Say Hello!
 
-Drop us a line and we'll get back to you ASAP
+Drop us a line and we'll get back to you ASAP -->

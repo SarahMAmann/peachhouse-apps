@@ -100,6 +100,14 @@ module.exports = {
         showSpinner: false
       }
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Press Start 2P`,
+        ],
+      }
+    },
     'gatsby-plugin-sitemap',
     // {
     //   resolve: 'gatsby-plugin-netlify-cms',

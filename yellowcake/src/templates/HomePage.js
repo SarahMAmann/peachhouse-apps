@@ -10,7 +10,7 @@ import Popup from '../components/Popup'
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordion, popup }) => (
   <main className="Home">
-    <PageHeader
+    {/* <PageHeader
       large
       title={title}
       subtitle={subtitle}
@@ -29,7 +29,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
           </Popup>
         </div>
       </div>
-    </section>
+    </section> */}
   </main>
 )
 
@@ -37,6 +37,9 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
 const HomePage = ({ data: { page } }) => (
   <Layout meta={page.frontmatter.meta || false}>
     <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <div style={{height: '85vh', backgroundColor: 'black', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+      <p className="main-title" style={{color: 'white', fontSize: '60px'}}>PEACH HOUSE</p>
+    </div>
   </Layout>
 )
 

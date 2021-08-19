@@ -26,7 +26,7 @@ export default ({ children }) => (
               <AlertTriangle size="5rem" />
             </p>
             <h1>404 - Page Not Found</h1>
-            <p>
+            <p style={{color: 'white'}}>
               We can't find the page you are looking for!
               <br />
               Head back to{' '}
